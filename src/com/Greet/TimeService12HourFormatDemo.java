@@ -1,11 +1,12 @@
-package com.HomeWork.Time;
+package com.Greet;
 
+import com.Greet.TimeServiceDemo;
 import org.springframework.stereotype.Component;
 
 import java.time.LocalDateTime;
 
-
-public class TimeService12HourFormat implements TimeService{
+@Component
+public class TimeService12HourFormatDemo implements TimeServiceDemo {
     @Override
     public int getCurrentTime() {
        int hour = LocalDateTime.now().getHour();

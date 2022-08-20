@@ -7,8 +7,7 @@ public class Main {
 //        GreetingServiceFactory greetingServiceFactory = new GreetingServiceFactory() ;
 //        GreetingService greetingService = greetingServiceFactory.getGreetingService("french") ;
 //        greetingService.greet("faisal");
-        ApplicationContext context = new AnnotationConfigApplicationContext("") ;
-        GreetingService greetingService = (GreetingService) context.getBean("greetInEnglish");
+
 
 
     }
