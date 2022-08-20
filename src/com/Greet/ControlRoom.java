@@ -9,6 +9,6 @@ public class ControlRoom {
         GreetingService greetingService1 = (GreetingService) context.getBean("greetInEnglish");
         GreetingService greetingService2 = (GreetingService) context.getBean("greetInEnglish") ;
 //        greetingService1.greet("faisal");
-        System.out.println(greetingService1 == greetingService2); // true
+        System.out.println(greetingService1 == greetingService2); // false
     }
 }
